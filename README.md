@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Repo](<repo URL>"https://github.com/mmeyer715/drink-when-thirsty")
+- [Repo](https://github.com/mmeyer715/drink-when-thirsty)
 
 - [Live](https://mmeyer715.github.io/drink-when-thirsty/)
 
