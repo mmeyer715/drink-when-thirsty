@@ -9,6 +9,7 @@
 - [Live](https://mmeyer715.github.io/drink-when-thirsty/)
 
 - [API](https://rapidapi.com/Bmbus/api/cocktails3/)
+- [Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
 
 ## Screenshots
 
