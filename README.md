@@ -8,7 +8,7 @@
 
 - [Live](<Homepage url> "https://mmeyer715.github.io/drink-when-thirsty/")
 
-- [API](<API Link> "https://rapidapi.com/Bmbus/api/cocktails3/")
+- [API](https://rapidapi.com/Bmbus/api/cocktails3/)
 
 ## Screenshots
 
