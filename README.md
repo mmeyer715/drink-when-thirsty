@@ -4,12 +4,12 @@
 
 ## Links
 
-- [Repo](<a href="https://github.com/mmeyer715/drink-when-thirsty" target="_blank">drink-when-thirsty</a>)
+- [Repo](repo URL"https://github.com/mmeyer715/drink-when-thirsty")
 
 - [Live](https://mmeyer715.github.io/drink-when-thirsty/)
 
-- [API](https://rapidapi.com/Bmbus/api/cocktails3/)
-- [Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
+- [API](API url "https://rapidapi.com/Bmbus/api/cocktails3/")
+
 
 ## Screenshots
 
