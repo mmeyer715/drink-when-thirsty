@@ -7,7 +7,7 @@ var ingredientArray = [];
 // pulls last searched drink ingredient
 function searchedDrink() {
     var userCt = JSON.parse(localStorage.getItem('ctNames'));
-    var userIngrds = JSON.parse(localStorage.getItem('ctIngrds'));
+    var userIngrds = localStorage.getItem('ctIngrds') ? JSON.parse(localStorage.getItem('ctIngrds')) : [];
     for (let i = 0; i < userCt.length && userIngrds.length; i++) {
         createCard(userCt[i], userIngrds[i]);
     }
