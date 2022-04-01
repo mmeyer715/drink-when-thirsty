@@ -54,17 +54,20 @@ body {
     margin: 5px;
 }
 
-.randoInfo {
-    display: flex;
-}
-
 .randoInfo h3 {
     text-align: center;
     background-color: #B6324F;
     margin: 5%
 }
 
-.randoInfo p {
-    background-color: #CEADAF;
-    padding: 5%;
+.ingrLi {
+    text-align: center;
+    background-color: lightpink;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    /* font-weight: bold; If you want it to be bold */
+    display: inline-block;
 }

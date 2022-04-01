@@ -35,8 +35,14 @@ function createCard(cocktailName, ingredients) {
     divCard2.classList.add('ingreds', 'col', 's12', 'm8', 'card', 'black');
     var divCont2 = document.createElement('div');
     divCont2.classList.add('card-content', 'white-text');
-    var divTitle2 = document.createElement('span');
-    divTitle2.textContent = ingredients;
+    var divTitle2 = document.createElement('ul');
+    for (var i = 0; i < ingredients.length; i++) {
+        var ingredLI = document.createElement('li');
+        ingredLI.innerHTML = ingredients[i];
+        divTitle2.appendChild(ingredLI);
+    }
+    // console.log(ingredients);
+    // divTitle2.textContent = ingredients;
     
 
     mainDiv.appendChild(divCard2);
@@ -94,17 +100,24 @@ function getRandoDrink() {
         cocktailTitle.innerHTML = ''
         // get information about random cocktail
         for (var i = 0; i < data.body[0].length; i++);
-        var cocktailName = `${data.body[i].name}`
-        var cocktailIngredients = `${data.body[i].ingredients}`
+        var cocktailName = data.body[i].name
+        var cocktailIngredients = data.body[i].ingredients
         // creating html elements for pulled data
         var ranDiv = document.createElement('div');
         ranDiv.classList.add('randoInfo')
         var h3 = document.createElement('h3');
-        var ingrLi = document.createElement('p')
+        var ingrLi = document.createElement('ul')
+        ingrLi.classList.add('ingrLi');
         h3.innerHTML = cocktailName;
-        ingrLi.innerHTML = cocktailIngredients;
+        console.log(data.body[i].ingredients);
+
+        for (var i = 0; i < cocktailIngredients.length; i++) {
+            var randLi = document.createElement('li');
+            randLi.innerHTML = cocktailIngredients[i];
+            ingrLi.appendChild(randLi);
+        }
         ranDiv.appendChild(h3);
-        h3.appendChild(ingrLi);
+        ranDiv.appendChild(ingrLi);
         cocktailTitle.appendChild(ranDiv);
         
     })
