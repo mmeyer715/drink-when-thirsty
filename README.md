@@ -4,11 +4,12 @@
 
 ## Links
 
-- [Repo](https://github.com/mmeyer715/drink-when-thirsty> "<project-name> Drink When Thirsty")
+- [Repo](https://github.com/mmeyer715/drink-when-thirsty)
 
-- [Live](<Homepage url> "https://mmeyer715.github.io/drink-when-thirsty/")
+- [Live](https://mmeyer715.github.io/drink-when-thirsty/)
 
-- [API](<API Link> "https://rapidapi.com/Bmbus/api/cocktails3/")
+- [API](<API url> "https://rapidapi.com/Bmbus/api/cocktails3/")
+
 
 ## Screenshots
 
